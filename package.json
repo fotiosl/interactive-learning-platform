@@ -1,0 +1,36 @@
+{
+  "name": "interactive-learning-platform",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "audit:mc": "node scripts/audit-mc.mjs",
+    "audit:rules": "npx tsx scripts/audit-rules.ts"
+  },
+  "dependencies": {
+    "@types/prismjs": "^1.26.6",
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^1.51.0",
+    "next": "16.3.8",
+    "prismjs": "^1.30.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-simple-code-editor": "^0.14.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "description": "Webbasierte Open-Source-Lernplattform für interaktive Schulaufgaben, Probetests und Programmierung."
+}

@@ -1,0 +1,18 @@
+services:
+  # Isolated, resource-limited code execution sandbox for student Java programs
+  java-sandbox:
+    image: ghcr.io/engineer-man/piston
+    container_name: gostudent-java-sandbox
+    restart: unless-stopped
+    ports:
+      - "2000:2000"
+    tmpfs:
+      - /tmp:exec,size=64M
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 256M
+    security_opt:
+      - no-new-privileges:true
+    read_only: false
