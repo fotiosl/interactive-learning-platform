@@ -1,0 +1,12 @@
+{
+  "slug": "mathematik-potenzen",
+  "name": "Mathematik: Potenzen & Zehnerpotenzen",
+  "grade": "Mittelstufe • Arithmetik & Algebra",
+  "schoolType": "Arithmetik & Potenzgesetze",
+  "subject": "Mathematik",
+  "avatarLetter": "M",
+  "notesForTeacher": "Didaktischer Schwerpunkt: 1. Grundlagen von Potenzen (Basis, Exponent, Wert, Vorzeichenregeln bei negativer Basis (-a)^n vs. -a^n), 2. Zehnerpotenzen & Stellenwerte (große Zahlen, wissenschaftliche Schreibweise, Potenzen mit Exponent 0), 3. Potenzgesetze & Rechenregeln (Punkt-vor-Strich mit Potenzen, gleiche Basis multiplizieren/dividieren, Potenzen potenzieren).",
+  "units": [
+    "unit-01-01-2026.json"
+  ]
+}

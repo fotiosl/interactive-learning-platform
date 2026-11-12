@@ -1,0 +1,13 @@
+{
+  "slug": "mathematik-statistik-geometrie",
+  "name": "Mathematik: Statistik, Geometrie & Algebra",
+  "grade": "Mittelstufe • Daten, Raum & Zahlen",
+  "schoolType": "Statistik, Pythagoras & Algebra",
+  "subject": "Mathematik",
+  "avatarLetter": "M",
+  "notesForTeacher": "Didaktischer Schwerpunkt: Statistische Kennwerte (Minimum, Maximum, Spannweite, Mittelwert, Modalwert & Median), Quantile & Quartilsabstand (Streumaße, Fünf-Punkte-Zusammenfassung & Boxplot-Verständnis), Satz des Pythagoras (Katheten, Hypotenuse, Umkehrung, ebene Figuren & Alltagsaufgaben) sowie rationale Zahlen und Klapustri-Termberechnungen.",
+  "units": [
+    "unit-01-01-2026.json",
+    "unit-02-01-2026.json"
+  ]
+}

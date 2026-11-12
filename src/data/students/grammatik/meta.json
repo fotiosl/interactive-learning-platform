@@ -1,0 +1,12 @@
+{
+  "slug": "deutsch-grammatik",
+  "name": "Deutsch: Satzglieder & Wortbildung",
+  "grade": "Grundlagen • Sprachuntersuchung",
+  "schoolType": "Grammatik & Rechtschreibung",
+  "subject": "Deutsch",
+  "avatarLetter": "G",
+  "notesForTeacher": "Didaktischer Schwerpunkt: Satzglieder erkennen (Prädikat, Prädikatsklammer, Subjekt), Satzbau aus Satzgliedern sowie Nomenbildung mit Wortbausteinen (-heit, -keit, -ung, -nis, -schaft).",
+  "units": [
+    "unit-01-01-2026.json"
+  ]
+}

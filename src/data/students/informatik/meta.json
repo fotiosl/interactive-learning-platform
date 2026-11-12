@@ -1,0 +1,12 @@
+{
+  "slug": "informatik-java",
+  "name": "Informatik: Java Programmierung",
+  "grade": "Einsteiger & Grundlagen • Informatik",
+  "schoolType": "Softwareentwicklung",
+  "subject": "Informatik",
+  "avatarLetter": "J",
+  "notesForTeacher": "Didaktischer Schwerpunkt: Schrittweiser Einstieg in die Java-Programmierung – Bildschirmausgaben, Variablen, einfache Berechnungen, Verzweigungen (if), while-Schleifen (Zählschleifen & Akkumulatoren) mit interaktivem Live-Compiler und Konsolenausgabe.",
+  "units": [
+    "unit-01-01-2026.json"
+  ]
+}

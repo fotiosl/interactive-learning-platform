@@ -1,0 +1,13 @@
+{
+  "slug": "deutsch-eroerterung",
+  "name": "Deutsch: Argumentation & Erörterung",
+  "grade": "Mittel- & Oberstufe • Argumentieren",
+  "schoolType": "Argumentation & Textanalyse",
+  "subject": "Deutsch",
+  "avatarLetter": "E",
+  "notesForTeacher": "Didaktischer Schwerpunkt: Lineare & dialektische Erörterung – Thesen, Argumente und empirische Belege (Studien) im Text unterscheiden, Problemfragen in der Einleitung, Sanduhr-Prinzip im Hauptteil sowie begründete eigene Meinung im Schlussteil.",
+  "units": [
+    "unit-01-01-2026.json",
+    "unit-02-01-2026.json"
+  ]
+}

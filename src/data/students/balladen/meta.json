@@ -1,0 +1,13 @@
+{
+  "slug": "deutsch-balladen",
+  "name": "Deutsch: Balladen & Gedichtanalyse",
+  "grade": "Mittelstufe • Literatur & Lyrik",
+  "schoolType": "Lyrik & Dramatik",
+  "subject": "Deutsch",
+  "avatarLetter": "B",
+  "notesForTeacher": "Didaktischer Schwerpunkt: Balladenanalyse (Ur-Ei der Dichtung: Lyrik, Epik, Dramatik), Formanalyse (Metrum, Reimschema), Schillers Handschuh, Goethes Erlkönig & Zauberlehrling, Sprachliche Stilmittel & Wirkung sowie TATTZ-Inhaltsangabe.",
+  "units": [
+    "unit-01-01-2026.json",
+    "unit-02-01-2026.json"
+  ]
+}

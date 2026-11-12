@@ -1,0 +1,12 @@
+{
+  "slug": "englisch-simple-past",
+  "name": "Englisch: Simple Past & Pronomen",
+  "grade": "Grundlagen • Englische Grammatik",
+  "schoolType": "Grammatik & Satzverknüpfung",
+  "subject": "Englisch",
+  "avatarLetter": "P",
+  "notesForTeacher": "Didaktischer Schwerpunkt: 1. Simple Past (regelmäßige Verben mit Rechtschreibregeln, unregelmäßige Verben, be was/were, Verneinung mit didn’t + Infinitiv, Fragen und Kurzantworten mit did), 2. Demonstrative Pronouns (this, that, these, those), 3. Connectives (and, but, or, so, because – logische Satzverknüpfungen und Unterschied zwischen Ursache und Folge).",
+  "units": [
+    "unit-01-01-2026.json"
+  ]
+}

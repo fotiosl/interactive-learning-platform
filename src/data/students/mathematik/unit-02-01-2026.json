@@ -1,0 +1,560 @@
+{
+  "id": "mathematik-modul-2",
+  "date": "02.01.2026",
+  "title": "Modul 2: Pythagoras-Anwendungen, Rationale Zahlen & Klapustri",
+  "description": "Strukturierte Rechenaufgaben (Interaktionstyp rechnung mit Symbol-Tastatur und Rechenweg) zum Satz des Pythagoras an Figuren und Alltagsbeispielen, zu rationalen Zahlen sowie zu Termberechnungen nach Klapustri.",
+  "tasks": [
+    {
+      "id": "mathematik-pythagoras-figuren-vierecke",
+      "topicSlug": "pythagoras-figuren-vierecke",
+      "date": "02.01.2026",
+      "title": "Satz des Pythagoras in Dreiecken und Vierecken",
+      "subject": "Mathematik",
+      "topic": "Geometrie: Dreiecke & Vierecke",
+      "dateBadge": "Geometrie: Dreiecke & Vierecke",
+      "description": "Berechnung von Höhen, Seiten und Diagonalen in gleichschenkligen und gleichseitigen Dreiecken sowie in Rechtecken, Trapezen und Rauten.",
+      "type": "rechnung",
+      "hideSampleSolution": false,
+      "inputQuestions": [
+        {
+          "id": "m2-fig-01",
+          "prompt": "Ein gleichschenkliges Dreieck hat die Schenkellänge a = 10 cm und die Basislänge c = 12 cm. Berechne die Höhe auf die Basis hc.",
+          "interactionType": "rechnung",
+          "placeholder": "Höhe mit Einheit eingeben...",
+          "correctAnswers": [
+            "8 cm",
+            "8cm",
+            "8",
+            "hc = 8 cm",
+            "hc = 8cm"
+          ],
+          "hint": "Die Höhe auf die Basis teilt diese genau in zwei gleich lange Hälften und zerlegt das Dreieck in zwei kongruente rechtwinklige Teildreiecke.",
+          "sampleSolution": "Gegeben: a = 10 cm, c = 12 cm -> c/2 = 6 cm.\nFormel: hc = sqrt(a^2 - (c/2)^2) = sqrt(10^2 - 6^2) = sqrt(100 - 36) = sqrt(64) = 8 cm.\nDie Höhe hc beträgt 8 cm."
+        },
+        {
+          "id": "m2-fig-02",
+          "prompt": "Ein gleichschenkliges Dreieck besitzt die Basis c = 14 cm und die dazugehörige Höhe hc = 9 cm. Berechne den Flächeninhalt A.",
+          "interactionType": "rechnung",
+          "placeholder": "Flächeninhalt mit Einheit eingeben...",
+          "correctAnswers": [
+            "63 cm²",
+            "63cm²",
+            "63 cm^2",
+            "63cm^2",
+            "63 cm2",
+            "63cm2",
+            "63",
+            "A = 63 cm²",
+            "A = 63 cm^2",
+            "A = 63 cm2"
+          ],
+          "hint": "Nutze die allgemeine Dreiecksformel: Grundseite mal zugehörige Höhe durch zwei.",
+          "sampleSolution": "Gegeben: c = 14 cm, hc = 9 cm.\nFormel: A = (c * hc) / 2 = (14 * 9) / 2 = 126 / 2 = 63 cm².\nDer Flächeninhalt beträgt 63 cm²."
+        },
+        {
+          "id": "m2-fig-03",
+          "prompt": "Ein gleichseitiges Dreieck hat die Seitenlänge a = 6 cm. Berechne die Höhe h auf zwei Dezimalstellen gerundet.",
+          "interactionType": "rechnung",
+          "placeholder": "Höhe auf 2 Dezimalstellen runden...",
+          "correctAnswers": [
+            "5,20 cm",
+            "5.20 cm",
+            "5,20cm",
+            "5.20cm",
+            "5,2 cm",
+            "5.2 cm",
+            "5,2cm",
+            "5.2cm",
+            "5,20",
+            "5.20",
+            "5,2",
+            "5.2",
+            "h = 5,20 cm",
+            "h = 5.20 cm",
+            "h = 5,2 cm"
+          ],
+          "hint": "Im gleichseitigen Dreieck halbiert die Höhe die Grundseite. Verwende die Seitenlänge als Hypotenuse und die halbe Grundseite als eine Kathete.",
+          "sampleSolution": "Gegeben: a = 6 cm -> a/2 = 3 cm.\nFormel: h = sqrt(6^2 - 3^2) = sqrt(36 - 9) = sqrt(27) ≈ 5,20 cm.\nDie Höhe beträgt gerundet 5,20 cm."
+        },
+        {
+          "id": "m2-fig-04",
+          "prompt": "Welche allgemeine Formel beschreibt die Höhe h in jedem gleichseitigen Dreieck mit Seitenlänge a exakt?",
+          "interactionType": "choice",
+          "options": [
+            "h = (a * sqrt(2)) / 2",
+            "h = (a * sqrt(5)) / 2",
+            "h = (a * sqrt(3)) / 4",
+            "h = (a * sqrt(3)) / 2"
+          ],
+          "correctAnswers": [
+            "h = (a * sqrt(3)) / 2"
+          ],
+          "hint": "Stelle im rechtwinkligen Teildreieck aus Seitenlänge a (Hypotenuse) und halber Basis a/2 den Satz des Pythagoras auf und vereinfache den Wurzelterm.",
+          "sampleSolution": "Im gleichseitigen Dreieck gilt: h^2 = a^2 - (a/2)^2 = a^2 - a^2/4 = (3/4) * a^2.\nZieht man die Wurzel, erhält man h = (a * sqrt(3)) / 2."
+        },
+        {
+          "id": "m2-fig-05",
+          "prompt": "Ein Rechteck hat die Seiten a = 15 cm und b = 8 cm. Berechne die Länge der Diagonale d.",
+          "interactionType": "rechnung",
+          "placeholder": "Diagonale mit Einheit eingeben...",
+          "correctAnswers": [
+            "17 cm",
+            "17cm",
+            "17",
+            "d = 17 cm",
+            "d = 17cm"
+          ],
+          "hint": "Die Diagonale d teilt das Rechteck in zwei rechtwinklige Dreiecke mit den Seitenlängen a und b als Katheten.",
+          "sampleSolution": "Gegeben: a = 15 cm, b = 8 cm.\nFormel: d = sqrt(a^2 + b^2) = sqrt(15^2 + 8^2) = sqrt(225 + 64) = sqrt(289) = 17 cm.\nDie Diagonale d beträgt 17 cm."
+        },
+        {
+          "id": "m2-fig-06",
+          "prompt": "In einem gleichschenkligen Trapez betragen die parallelen Seiten a = 16 cm und c = 6 cm. Wie lang ist ein einzelner seitlicher Abschnitt x an der Grundlinie a?",
+          "interactionType": "rechnung",
+          "placeholder": "Abschnitt x mit Einheit eingeben...",
+          "correctAnswers": [
+            "5 cm",
+            "5cm",
+            "5",
+            "x = 5 cm",
+            "x = 5cm"
+          ],
+          "hint": "Da das Trapez symmetrisch ist, verteilt sich der Längenunterschied (a - c) gleichmäßig auf beide Seiten.",
+          "sampleSolution": "Gegeben: a = 16 cm, c = 6 cm.\nFormel: x = (a - c) / 2 = (16 - 6) / 2 = 10 / 2 = 5 cm.\nEin seitlicher Abschnitt x beträgt 5 cm."
+        },
+        {
+          "id": "m2-fig-07",
+          "prompt": "Ein gleichschenkliges Trapez hat die Schenkellänge b = 15 cm und den seitlichen Basisabschnitt x = 9 cm. Berechne die Trapezhöhe h.",
+          "interactionType": "rechnung",
+          "placeholder": "Höhe mit Einheit eingeben...",
+          "correctAnswers": [
+            "12 cm",
+            "12cm",
+            "12",
+            "h = 12 cm",
+            "h = 12cm"
+          ],
+          "hint": "Im rechtwinkligen Teildreieck am Rand ist der Schenkel die Hypotenuse und der Basisabschnitt x eine Kathete.",
+          "sampleSolution": "Gegeben: b = 15 cm, x = 9 cm.\nFormel: h = sqrt(b^2 - x^2) = sqrt(15^2 - 9^2) = sqrt(225 - 81) = sqrt(144) = 12 cm.\nDie Trapezhöhe h beträgt 12 cm."
+        },
+        {
+          "id": "m2-fig-08",
+          "prompt": "Eine Raute (Rhombus) besitzt die Diagonalen e = 24 cm und f = 10 cm. Berechne den Umfang U der Raute.",
+          "interactionType": "rechnung",
+          "placeholder": "Umfang mit Einheit eingeben...",
+          "correctAnswers": [
+            "52 cm",
+            "52cm",
+            "52",
+            "U = 52 cm",
+            "U = 52cm"
+          ],
+          "hint": "Die Diagonalen einer Raute halbieren einander im rechten Winkel. Berechne zuerst eine Seitenlänge a über die halben Diagonalen und bestimme danach den gesamten Umfang.",
+          "sampleSolution": "Gegeben: e = 24 cm -> e/2 = 12 cm, f = 10 cm -> f/2 = 5 cm.\nSeitenlänge: a = sqrt((e/2)^2 + (f/2)^2) = sqrt(12^2 + 5^2) = sqrt(144 + 25) = sqrt(169) = 13 cm.\nUmfang: U = 4 * a = 4 * 13 cm = 52 cm.\nDer Umfang der Raute beträgt 52 cm."
+        }
+      ]
+    },
+    {
+      "id": "mathematik-alltags-berufsbeispiele-pythagoras",
+      "topicSlug": "alltags-berufsbeispiele-pythagoras",
+      "date": "02.01.2026",
+      "title": "Umfang & Fläche in Alltags- und Berufsbeispielen",
+      "subject": "Mathematik",
+      "topic": "Geometrie: Alltags- & Berufsbeispiele",
+      "dateBadge": "Geometrie: Alltags- & Berufsbeispiele",
+      "description": "Praxisorientierte Aufgabenstellungen aus Handwerk, Bau und Technik: Dachkonstruktion, Förderanlagen, Zaunbau mit Umfang, Knickbäume und Grundstücksflächen.",
+      "type": "rechnung",
+      "hideSampleSolution": false,
+      "inputQuestions": [
+        {
+          "id": "m2-alltag-01",
+          "prompt": "Zimmerei: Ein symmetrischer Dachstuhl hat eine Spannweite (Gesamtbreite) von 8 m und eine Firsthöhe von 3 m. Berechne die erforderliche Sparrenlänge s.",
+          "interactionType": "rechnung",
+          "placeholder": "Sparrenlänge mit Einheit eingeben...",
+          "correctAnswers": [
+            "5 m",
+            "5m",
+            "5",
+            "s = 5 m",
+            "s = 5m"
+          ],
+          "hint": "Die Firsthöhe teilt die gesamte Spannweite mittig in zwei gleich große Teile. Ein Sparren bildet im entstehenden rechtwinkligen Dreieck die Hypotenuse.",
+          "sampleSolution": "Gegeben: halbe Spannweite b = 8 m / 2 = 4 m, Firsthöhe h = 3 m.\nFormel: s = sqrt(b^2 + h^2) = sqrt(4^2 + 3^2) = sqrt(16 + 9) = sqrt(25) = 5 m.\nDie Sparrenlänge beträgt 5 m."
+        },
+        {
+          "id": "m2-alltag-02",
+          "prompt": "Dachbau: Ein Giebeldreieck hat eine Grundseite von 10 m und eine Firsthöhe von 4 m. Berechne die dreieckige Giebelfläche A.",
+          "interactionType": "rechnung",
+          "placeholder": "Giebelfläche mit Einheit eingeben...",
+          "correctAnswers": [
+            "20 m²",
+            "20m²",
+            "20 m^2",
+            "20m^2",
+            "20 m2",
+            "20m2",
+            "20",
+            "A = 20 m²",
+            "A = 20 m^2",
+            "A = 20 m2"
+          ],
+          "hint": "Verwende die Formel für den Flächeninhalt eines Dreiecks aus Grundseite und zugehöriger Höhe.",
+          "sampleSolution": "Gegeben: g = 10 m, h = 4 m.\nFormel: A = (g * h) / 2 = (10 * 4) / 2 = 40 / 2 = 20 m².\nDie Giebelfläche beträgt 20 m²."
+        },
+        {
+          "id": "m2-alltag-03",
+          "prompt": "Bauhandwerk: Ein Schrägförderband überwindet eine horizontale Distanz von 12 m und einen Höhenunterschied von 9 m. Wie lang ist das Förderband L?",
+          "interactionType": "rechnung",
+          "placeholder": "Länge mit Einheit eingeben...",
+          "correctAnswers": [
+            "15 m",
+            "15m",
+            "15",
+            "L = 15 m",
+            "L = 15m"
+          ],
+          "hint": "Horizontale Weite und Höhenunterschied stehen im rechten Winkel zueinander und bilden somit die beiden Katheten.",
+          "sampleSolution": "Gegeben: a = 12 m, b = 9 m.\nFormel: L = sqrt(12^2 + 9^2) = sqrt(144 + 81) = sqrt(225) = 15 m.\nDas Förderband ist 15 m lang."
+        },
+        {
+          "id": "m2-alltag-04",
+          "prompt": "Forstwirtschaft: Ein 18 m hoher Baum knickt bei einem Sturm so ab, dass die Spitze 6 m vom Stamm entfernt den Boden berührt. In welcher Höhe h ist der Stamm geknickt?",
+          "interactionType": "rechnung",
+          "placeholder": "Knickhöhe mit Einheit eingeben...",
+          "correctAnswers": [
+            "8 m",
+            "8m",
+            "8",
+            "h = 8 m",
+            "h = 8m"
+          ],
+          "hint": "Der stehende Teil h und der Bodenabstand bilden die Katheten; die Gesamthöhe minus h ergibt die Länge des abgeknickten Teils als Hypotenuse. Stelle damit eine Gleichung nach h auf.",
+          "sampleSolution": "Gegeben: Gesamthöhe = 18 m -> abgeknickter Teil = 18 - h, Bodenabstand = 6 m.\nPythagoras: h^2 + 6^2 = (18 - h)^2\nh^2 + 36 = 324 - 36h + h^2\n36 = 324 - 36h -> 36h = 288 -> h = 8 m.\nDer Baum ist in 8 m Höhe abgeknickt (der umgeknickte Teil misst 10 m)."
+        },
+        {
+          "id": "m2-alltag-05",
+          "prompt": "Medientechnik: Ein Computermonitor hat eine Bildbreite von 48 cm und eine Bildhöhe von 36 cm. Berechne die Bildschirmdiagonale d.",
+          "interactionType": "rechnung",
+          "placeholder": "Diagonale mit Einheit eingeben...",
+          "correctAnswers": [
+            "60 cm",
+            "60cm",
+            "60",
+            "d = 60 cm",
+            "d = 60cm"
+          ],
+          "hint": "Bildbreite und Bildhöhe stehen senkrecht zueinander und bilden die Katheten des rechteckigen Bildschirms.",
+          "sampleSolution": "Gegeben: b = 48 cm, h = 36 cm.\nFormel: d = sqrt(48^2 + 36^2) = sqrt(2304 + 1296) = sqrt(3600) = 60 cm.\nDie Bildschirmdiagonale misst 60 cm."
+        },
+        {
+          "id": "m2-alltag-06",
+          "prompt": "Zaunbau (Berufsbeispiel): Ein rechteckiges Betriebsgelände hat eine Länge von 24 m und eine Diagonale von 26 m. Wie viele Meter Zaun (Umfang U) müssen rund um das gesamte Grundstück gespannt werden?",
+          "interactionType": "rechnung",
+          "placeholder": "Umfang mit Einheit eingeben...",
+          "correctAnswers": [
+            "68 m",
+            "68m",
+            "68",
+            "U = 68 m",
+            "U = 68m"
+          ],
+          "hint": "Berechne zuerst die fehlende Breite des Rechtecks mithilfe von Pythagoras (Diagonale als Hypotenuse) und bestimme anschließend den Rechtecksumfang.",
+          "sampleSolution": "Gegeben: Länge a = 24 m, Diagonale d = 26 m.\n1. Breite: b = sqrt(d^2 - a^2) = sqrt(26^2 - 24^2) = sqrt(676 - 576) = sqrt(100) = 10 m.\n2. Umfang: U = 2 * (a + b) = 2 * (24 m + 10 m) = 68 m.\nFür die gesamte Umzäunung werden 68 m Zaun benötigt."
+        },
+        {
+          "id": "m2-alltag-07",
+          "prompt": "Vermessung: Ein trapezförmiger Garten hat die parallelen Begrenzungen a = 15 m und c = 9 m sowie den rechtwinkligen Abstand h = 6 m. Berechne den Flächeninhalt A.",
+          "interactionType": "rechnung",
+          "placeholder": "Fläche mit Einheit eingeben...",
+          "correctAnswers": [
+            "72 m²",
+            "72m²",
+            "72 m^2",
+            "72m^2",
+            "72 m2",
+            "72m2",
+            "72",
+            "A = 72 m²",
+            "A = 72 m^2",
+            "A = 72 m2"
+          ],
+          "hint": "Berechne zuerst den Mittelwert der beiden parallelen Seiten und multipliziere ihn mit dem senkrechten Abstand (Trapezhöhe).",
+          "sampleSolution": "Gegeben: a = 15 m, c = 9 m, h = 6 m.\nFormel: A = ((a + c) / 2) * h = ((15 + 9) / 2) * 6 = 12 * 6 = 72 m².\nDer Flächeninhalt des Gartens beträgt 72 m²."
+        },
+        {
+          "id": "m2-alltag-08",
+          "prompt": "Warum nutzen Bauhandwerker beim Abstecken von Fundamenten oft Schnüre mit den Längen 3 m, 4 m und 5 m?",
+          "interactionType": "choice",
+          "options": [
+            "Weil 3² + 4² = 5² gilt und so ohne Winkelmesser ein exakt rechter Winkel entsteht",
+            "Weil diese Längen den durchschnittlichen Raummaßen moderner Wohngebäude entsprechen",
+            "Weil Maurerschnüre traditionell in genormten Einheiten von 12 m verkauft werden",
+            "Weil das Dreieck mit diesen Seitenlängen die größtmögliche Windstabilität besitzt"
+          ],
+          "correctAnswers": [
+            "Weil 3² + 4² = 5² gilt und so ohne Winkelmesser ein exakt rechter Winkel entsteht"
+          ],
+          "hint": "Überprüfe, ob die drei Zahlenwerte die Umkehrung des Satzes des Pythagoras erfüllen.",
+          "sampleSolution": "Da 3² + 4² = 9 + 16 = 25 = 5² gilt, bildet das Dreieck nach der Umkehrung des Satzes des Pythagoras exakt einen 90°-Winkel (pythagoreisches Zahlentripel)."
+        }
+      ]
+    },
+    {
+      "id": "mathematik-rationale-zahlen-rechenregeln",
+      "topicSlug": "rationale-zahlen-rechenregeln",
+      "date": "02.01.2026",
+      "title": "Rationale Zahlen: Vorzeichenregeln & Rechengesetze",
+      "subject": "Mathematik",
+      "topic": "Arithmetik: Rationale Zahlen",
+      "dateBadge": "Arithmetik: Rationale Zahlen",
+      "description": "Sicheres Beherrschen der Grundrechenarten mit positiven und negativen Zahlen: Vorzeichenregeln, Gegenzahl-Prinzip und vorteilhaftes Rechnen.",
+      "type": "rechnung",
+      "hideSampleSolution": false,
+      "inputQuestions": [
+        {
+          "id": "m2-rat-01",
+          "prompt": "Welches Vorzeichen hat das Produkt, wenn man eine negative rationale Zahl mit einer weiteren negativen rationalen Zahl multipliziert?",
+          "interactionType": "choice",
+          "options": [
+            "Das Produkt hat stets ein negatives Vorzeichen",
+            "Das Vorzeichen hängt vom Betrag der Zahlen ab",
+            "Das Produkt hat stets ein positives Vorzeichen",
+            "Das Vorzeichen wird durch die größere Zahl bestimmt"
+          ],
+          "correctAnswers": [
+            "Das Produkt hat stets ein positives Vorzeichen"
+          ],
+          "hint": "Denke an die Vorzeichenregel bei der Multiplikation mit gleichen Vorzeichen.",
+          "sampleSolution": "Regel: Minus mal Minus ergibt Plus. Das Produkt zweier negativer Zahlen ist stets positiv."
+        },
+        {
+          "id": "m2-rat-02",
+          "prompt": "Berechne das Ergebnis der Subtraktion: 14 - (-9)",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "23",
+            "+23"
+          ],
+          "hint": "Eine negative Zahl zu subtrahieren entspricht dem Addieren ihrer positiven Gegenzahl.",
+          "sampleSolution": "Rechnung: 14 - (-9) = 14 + 9 = 23.\nDas Ergebnis lautet 23."
+        },
+        {
+          "id": "m2-rat-03",
+          "prompt": "Berechne die Summe zweier negativer Zahlen: (-18) + (-27)",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "-45",
+            "- 45"
+          ],
+          "hint": "Werden zwei Zahlen mit gleichem negativem Vorzeichen addiert, addiert man ihre Beträge und übernimmt das gemeinsame Vorzeichen.",
+          "sampleSolution": "Rechnung: (-18) + (-27) = -(18 + 27) = -45.\nDas Ergebnis lautet -45."
+        },
+        {
+          "id": "m2-rat-04",
+          "prompt": "Berechne das Produkt bei ungleichen Vorzeichen: (-7) * 8",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "-56",
+            "- 56"
+          ],
+          "hint": "Bei unterschiedlichen Vorzeichen zweier Faktoren greift die Regel für ungleiche Vorzeichen bei der Punktrechnung.",
+          "sampleSolution": "Rechnung: (-7) * 8 = -(7 * 8) = -56.\nDas Ergebnis lautet -56."
+        },
+        {
+          "id": "m2-rat-05",
+          "prompt": "Berechne den Quotienten zweier negativer Zahlen: (-84) : (-7)",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "12",
+            "+12"
+          ],
+          "hint": "Wende die Vorzeichenregel für gleiche Vorzeichen beim Dividieren an und teile die Beträge.",
+          "sampleSolution": "Rechnung: (-84) : (-7) = +(84 : 7) = 12.\nDas Ergebnis lautet 12."
+        },
+        {
+          "id": "m2-rat-06",
+          "prompt": "Bringe die Satzbausteine zur Multiplikationsregel in die korrekte Reihenfolge:",
+          "interactionType": "sentence_builder",
+          "tiles": [
+            "ist",
+            "zahlen",
+            "das",
+            "positiv",
+            "negativer",
+            "zweier",
+            "stets",
+            "produkt"
+          ],
+          "correctAnswers": [
+            "das produkt zweier negativer zahlen ist stets positiv",
+            "stets positiv ist das produkt zweier negativer zahlen"
+          ],
+          "hint": "Bilde zuerst das Subjekt mit Genitivattribut (Produktbezeichnung + zwei Zahlen) und ergänze Verb samt Vorzeichen-Aussage.",
+          "sampleSolution": "das produkt zweier negativer zahlen ist stets positiv"
+        },
+        {
+          "id": "m2-rat-07",
+          "prompt": "Berechne vorteilhaft mithilfe des Distributivgesetzes oder durch Ausrechnen der Klammer: (-6) * (30 - 4)",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "-156",
+            "- 156"
+          ],
+          "hint": "Du kannst entweder zuerst den Klammerwert berechnen und danach multiplizieren oder jeden Term in der Klammer einzeln mit der Zahl davor malnehmen.",
+          "sampleSolution": "Variante 1 (Klammer zuerst): 30 - 4 = 26 -> (-6) * 26 = -156.\nVariante 2 (Distributivgesetz): (-6) * 30 - (-6) * 4 = -180 - (-24) = -180 + 24 = -156."
+        },
+        {
+          "id": "m2-rat-08",
+          "prompt": "Berechne die Addition mit rationalen Dezimalzahlen: (-3,6) + (-5,8)",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "-9,4",
+            "-9.4",
+            "- 9,4",
+            "- 9.4"
+          ],
+          "hint": "Addiere die Beträge beider Dezimalzahlen und setze anschließend das gemeinsame Minus-Vorzeichen.",
+          "sampleSolution": "Rechnung: (-3,6) + (-5,8) = -(3,6 + 5,8) = -9,4.\nDas Ergebnis lautet -9,4."
+        }
+      ]
+    },
+    {
+      "id": "mathematik-klapustri-termrechnungen",
+      "topicSlug": "klapustri-termrechnungen",
+      "date": "02.01.2026",
+      "title": "Klapustri: Vorrangregeln & Termberechnungen",
+      "subject": "Mathematik",
+      "topic": "Arithmetik: Klapustri",
+      "dateBadge": "Arithmetik: Klapustri",
+      "description": "Mathematische Vorrangregeln sicher anwenden: Klammern vor Punktrechnung vor Strichrechnung, verschachtelte Klammern und Potenzen.",
+      "type": "rechnung",
+      "hideSampleSolution": false,
+      "inputQuestions": [
+        {
+          "id": "m2-kla-01",
+          "prompt": "Welche Reihenfolge legt das mathematische Vorrang-Merkwort „Klapustri“ verbindlich fest?",
+          "interactionType": "choice",
+          "options": [
+            "Punktrechnung vor Klammern vor Strichrechnung",
+            "Strichrechnung vor Punktrechnung vor Klammern",
+            "Klammern vor Strichrechnung vor Punktrechnung",
+            "Klammern vor Punktrechnung vor Strichrechnung"
+          ],
+          "correctAnswers": [
+            "Klammern vor Punktrechnung vor Strichrechnung"
+          ],
+          "hint": "Zerlege das Kunstwort von links nach rechts in seine drei Silben: Kla – pu – stri.",
+          "sampleSolution": "Klapustri steht für: 1. Klammern auflösen, 2. Punktrechnungen (Multiplikation, Division), 3. Strichrechnungen (Addition, Subtraktion)."
+        },
+        {
+          "id": "m2-kla-02",
+          "prompt": "Berechne den Term unter Beachtung von Klapustri: 24 - 6 * (-3)",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "42",
+            "+42"
+          ],
+          "hint": "Führe zuerst die Punktrechnung aus und achte beim anschließenden Subtrahieren auf das Vorzeichen des Produkts.",
+          "sampleSolution": "Punktrechnung zuerst: 6 * (-3) = -18.\nStrichrechnung: 24 - (-18) = 24 + 18 = 42.\nDas Ergebnis lautet 42."
+        },
+        {
+          "id": "m2-kla-03",
+          "prompt": "Berechne den Term mit zwei Punktrechnungen: (-45) : (-9) + (-8) * 4",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "-27",
+            "- 27"
+          ],
+          "hint": "Berechne zuerst beide Punktrechnungen getrennt voneinander und addiere zum Schluss die beiden Zwischenergebnisse.",
+          "sampleSolution": "1. Punktrechnung: (-45) : (-9) = 5.\n2. Punktrechnung: (-8) * 4 = -32.\nAddition: 5 + (-32) = 5 - 32 = -27.\nDas Ergebnis lautet -27."
+        },
+        {
+          "id": "m2-kla-04",
+          "prompt": "Bringe die Satzbausteine zur Klapustri-Regel in die richtige Reihenfolge:",
+          "interactionType": "sentence_builder",
+          "tiles": [
+            "vor",
+            "klammer",
+            "strich",
+            "immer",
+            "klapustri",
+            "bei",
+            "punkt",
+            "vor",
+            "gilt"
+          ],
+          "correctAnswers": [
+            "bei klapustri gilt immer klammer vor punkt vor strich",
+            "immer gilt bei klapustri klammer vor punkt vor strich",
+            "klammer vor punkt vor strich gilt immer bei klapustri",
+            "bei klapustri gilt klammer vor punkt vor strich immer"
+          ],
+          "hint": "Beginne mit der Regel-Einleitung („bei ...“) und ordne danach die drei Vorrangstufen in der korrekten Abfolge an.",
+          "sampleSolution": "bei klapustri gilt immer klammer vor punkt vor strich"
+        },
+        {
+          "id": "m2-kla-05",
+          "prompt": "Berechne den Term mit verschachtelten Klammern: 18 - [10 - (14 - 19)]",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "3",
+            "+3"
+          ],
+          "hint": "Löse verschachtelte Klammern immer von innen nach außen auf: zuerst die runde Klammer, dann die eckige Klammer und schließlich die äußere Subtraktion.",
+          "sampleSolution": "Innere runde Klammer: 14 - 19 = -5.\nEckige Klammer: 10 - (-5) = 10 + 5 = 15.\nGesamter Term: 18 - 15 = 3.\nDas Ergebnis lautet 3."
+        },
+        {
+          "id": "m2-kla-06",
+          "prompt": "Berechne den Term mit Potenz und Klammer: (-3)^2 - 5 * (2 - 6)",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "29",
+            "+29"
+          ],
+          "hint": "Beachte die Vorrangreihenfolge: Potenz und Klammer zuerst ausrechnen, danach die Punktrechnung durchführen und zum Schluss subtrahieren.",
+          "sampleSolution": "Potenz: (-3)^2 = (-3) * (-3) = 9.\nKlammer: 2 - 6 = -4.\nMultiplikation: 5 * (-4) = -20.\nSubtraktion: 9 - (-20) = 9 + 20 = 29.\nDas Ergebnis lautet 29."
+        },
+        {
+          "id": "m2-kla-07",
+          "prompt": "Worin liegt der rechnerische Unterschied zwischen (-4)^2 und -4^2?",
+          "interactionType": "choice",
+          "options": [
+            "(-4)^2 = -16 (Basis bleibt negativ); -4^2 = 16 (jede Quadratzahl ist positiv)",
+            "(-4)^2 = 16 (durch Klammerung positiv); -4^2 = -16 (Vorzeichen bleibt vor Potenz)",
+            "(-4)^2 = -8 (Basis mal Exponent); -4^2 = 8 (Vorzeichenwechsel bei geradem Exponent)",
+            "(-4)^2 = 16 (gleicher Wert); -4^2 = 16 (jede Potenz mit Hochzahl 2 ist positiv)"
+          ],
+          "correctAnswers": [
+            "(-4)^2 = 16 (durch Klammerung positiv); -4^2 = -16 (Vorzeichen bleibt vor Potenz)"
+          ],
+          "hint": "Prüfe bei beiden Schreibweisen genau, worauf sich die Hochzahl 2 bezieht: Schließt eine Klammer das Minuszeichen als Teil der Basis mit ein oder nicht?",
+          "sampleSolution": "(-4)^2 = (-4) * (-4) = +16, da die Klammer das Vorzeichen einschließt.\nBei -4^2 bindet die Potenz stärker als das Minus-Vorzeichen: -(4 * 4) = -16."
+        },
+        {
+          "id": "m2-kla-08",
+          "prompt": "Berechne den Term mit rationalen Dezimalzahlen: 4,5 * (-2) + 16,8 : (-4)",
+          "interactionType": "rechnung",
+          "placeholder": "Ergebnis eingeben...",
+          "correctAnswers": [
+            "-13,2",
+            "-13.2",
+            "- 13,2",
+            "- 13.2"
+          ],
+          "hint": "Berechne zuerst beide Punktrechnungen getrennt voneinander und addiere anschließend die beiden Zwischenwerte.",
+          "sampleSolution": "1. Punktrechnung: 4,5 * (-2) = -9.\n2. Punktrechnung: 16,8 : (-4) = -4,2.\nAddition: -9 + (-4,2) = -13,2.\nDas Ergebnis lautet -13,2."
+        }
+      ]
+    }
+  ]
+}

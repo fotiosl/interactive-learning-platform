@@ -1,0 +1,12 @@
+{
+  "slug": "englisch-new-york",
+  "name": "Englisch: New York City (Wortschatz & Kontext)",
+  "grade": "Mittelstufe • Wortschatz & Kontext",
+  "schoolType": "Wortschatz & Leseverstehen",
+  "subject": "Englisch",
+  "avatarLetter": "E",
+  "notesForTeacher": "Didaktischer Schwerpunkt: Themenwortschatz New York City – Reisevorbereitung & Flughafen (papers, dried fruit, packing list, diary), Hotel & Stadtleben (lobby, terrace, loft, fire escapes, skyline) sowie Gefühle, Shopping & Gegenteile (heartbroken, exhausted, department store, opposites).",
+  "units": [
+    "unit-01-01-2026.json"
+  ]
+}

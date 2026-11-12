@@ -1,0 +1,13 @@
+{
+  "slug": "englisch-conditionals",
+  "name": "Englisch: Conditional Sentences (Type 1 & 2)",
+  "grade": "Mittelstufe • Englische Grammatik",
+  "schoolType": "Grammatik & Satzbau",
+  "subject": "Englisch",
+  "avatarLetter": "C",
+  "notesForTeacher": "Didaktischer Schwerpunkt: If-Clauses (Conditional Sentences) – Reale Bedingungen (Type 1: Simple Present + will-future/can/must) vs. hypothetische Bedingungen (Type 2: Simple Past + would/could), Ratschläge mit \"If I were you\", Satzstellungsregeln und Fehlerkorrektur mit 150 Übungen.",
+  "units": [
+    "unit-01-01-2026.json",
+    "unit-02-01-2026.json"
+  ]
+}

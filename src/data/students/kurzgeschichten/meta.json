@@ -1,0 +1,12 @@
+{
+  "slug": "deutsch-kurzgeschichten",
+  "name": "Deutsch: Kurzgeschichten & Inhaltsangabe",
+  "grade": "Mittelstufe • Epik & Sprache",
+  "schoolType": "Epik & Sprachbetrachtung",
+  "subject": "Deutsch",
+  "avatarLetter": "K",
+  "notesForTeacher": "Didaktischer Schwerpunkt: 1. Inhaltsangabe nach TATTE (sachlicher Stil, Präsens, Sinnabschnitte, Konjunktionen), 2. Merkmale der Kurzgeschichte (in medias res, offenes Ende, Wendepunkt, Leerstellen), 3. Figurenanalyse zu „Der höfliche Junge“ (Etgar Keret: direkte/indirekte Charakterisierung, Schutzfunktion von Höflichkeit), 4. Rechtschreibung: das oder dass? mit Ersatzprobe.",
+  "units": [
+    "unit-01-01-2026.json"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "rechnungswesen",
+  "name": "BWL & Rechnungswesen",
+  "grade": "Berufliche Bildung & Wirtschaft",
+  "schoolType": "Finanzbuchhaltung & BWL",
+  "subject": "Rechnungswesen",
+  "avatarLetter": "R",
+  "notesForTeacher": "Didaktischer Schwerpunkt: Doppelte Buchführung – Buchungsregeln (Soll an Haben), Inventur & Bilanzaufbau nach HGB, Liquiditätsgliederung, Reinvermögen und praktische Buchungssätze auf T-Konten.",
+  "units": [
+    "unit-01-01-2026.json"
+  ]
+}
