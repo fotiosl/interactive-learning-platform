@@ -69,7 +69,9 @@ export function runRulesAudit(options?: {
     ? allStudents.filter((s) => s.slug.toLowerCase() === options.targetStudent!.toLowerCase())
     : allStudents;
 
-  const isPublicMode = process.env.NEXT_PUBLIC_APP_MODE === 'public';
+  // Default to public mode in this repository (matching next.config.ts env.NEXT_PUBLIC_APP_MODE)
+  // so standalone CLI audits and prebuild enforce RULE 4 GDPR checks and do not treat module names as PII.
+  const isPublicMode = (process.env.NEXT_PUBLIC_APP_MODE || 'public') === 'public';
   const checkAssets = options?.checkAssets ?? !isPublicMode;
   const includeWarnings = options?.includeWarnings ?? false;
   const issues: AuditIssue[] = [];
